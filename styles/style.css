@@ -143,6 +143,11 @@ body {
 
 .car-item-img img {
   vertical-align: bottom;
+  transition: all 0.3s;
+}
+
+.car-item-img img:hover {
+  transform: scale(1.1);
 }
 
 .car-item-title {
